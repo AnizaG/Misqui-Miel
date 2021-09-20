@@ -39,7 +39,12 @@ $(document).ready(function () {
         minlength: 10,
         maxlength: 50,
         },
-        pedido: {
+        correo:{
+            required: true,
+        minlength: 10,
+        maxlength: 50,
+        },
+        mensaje: {
         required: true,
         minlength: 10,
         maxlength: 100,
@@ -48,18 +53,23 @@ $(document).ready(function () {
     messages: {
         usuario: {
         required: "Debe ingresar Nombre y Apellido",
-        minlength: "El usuario debe tener un mínimo de 3 carácteres",
-        maxlength: "El usuario debe tener un máximo de 15 carácteres",
+        minlength: "El nombre y apellido debe tener un mínimo de 3 carácteres",
+        maxlength: "El nombre y apellido debe tener un máximo de 15 carácteres",
         },
         contacto: {
         required: "Debe ingresar número de contacto Válido",
-        minlength: "El correo debe tener un mínimo de 10 carácteres",
-        maxlength: "El correo debe tener un máximo de 50 carácteres",
+        minlength: "El número debe tener un mínimo de 9 carácteres",
+        maxlength: "El número debe tener un máximo de 11 carácteres",
         },
-        pedido: {
-        required: "Debe ingresar su pedido",
+        correo: {
+        required: "Debe ingresar su correo",
+        minlength: "El correo debe tener un mínimo de 10 carácteres",
+        maxlength: "El correo debe tener un máximo de 200 carácteres",
+        },    
+        mensaje: {
+        required: "Debe ingresar su mensaje",
         minlength: "El mensaje debe tener como minimo 10 carácteres",
-        maxlength: "El mensaje debe tener un máximo de 100 carácteres",
+        maxlength: "El mensaje debe tener un máximo de 300 carácteres",
         },
     },
     });

@@ -1,3 +1,4 @@
+
 /*termina el nav*/
 header, .alert{
     z-index: 100;
@@ -56,7 +57,7 @@ header, .alert{
     position: fixed;
     z-index: 50;
     width: 100%;
-    border-bottom: 2px solid #fdbb2d;
+    border-bottom: 2px solid #ffb600;
     }
 
 
@@ -69,7 +70,7 @@ header, .alert{
     }
 
     .naveg a:hover {
-    background: linear-gradient(160deg, #22c2c3 0%, #fdbb2d 100%);
+    background: linear-gradient(160deg, #000000 0%, #ffb600 100%);
     border-radius: 5%;
     }
 
@@ -88,25 +89,19 @@ header, .alert{
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     border-radius: 5%;
-    background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+    background: linear-gradient(160deg, #000000bb 0%, #ffb600 100%);
     }
 
     .Text-hero a:hover {
-    background: linear-gradient(160deg, #22c2c3 0%, #fdbb2d 100%);
+    background: linear-gradient(160deg, #000000 0%, #ffb600 100%);
     }
+/* ================= FOOTER =================== */
 
-    /*foot*/
-    .foot {
-    background: linear-gradient(160deg, #22c3c3f1 0%, #fdbb2dee 100%);
+.foot2{
+    background-color: #ffb600;
     text-align: center;
-    }
+}
 
-    .foot h4 {
-    font-family: "MuseoModerno";
-    padding: 10px;
-    margin: 0;
-    overflow: hidden;
-    }
 
     /*redes*/
 
@@ -130,18 +125,6 @@ header, .alert{
 
     .social-networks a.facebook {
     background-color: #3c70a4;
-    }
-
-    .social-networks a.twitter {
-    background-color: #5bd1d7;
-    }
-
-    .social-networks a.google {
-    background-color: #ee4540;
-    }
-
-    .social-networks a.youtube {
-    background-color: #c72c41;
     }
 
     .social-networks a.instagram {

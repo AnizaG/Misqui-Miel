@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./ventas.css">
 </head>
 
 
@@ -33,6 +33,7 @@
                             <a href="./index.html">INICIO</a>
                             <a href="./nosotros.html">NOSOTROS</a>
                             <a href="./envios.html">ENVÍOS</a>
+                            <a href="./contacto.html">CONTACTO</a>
                             <a href="#" onclick="generarNuevoColor()">Nuevo color</a>
                             <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
                             <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
@@ -42,53 +43,201 @@
             </div>
         </div>    
     </header>
-<br>
-<br>
 
-
-        <!--=============== FORMULARIO ===============-->
-        <section class="Contacto container">
-            <h1 class="text-center">HAZ TU PEDIDO</h1>
-            <br>
-            <form class="fromCont" action="" id="formulario">
-                <div class="row d-flex justify-content-between">
-                    <input class="form-control col-sm-12 col-md-6" placeholder="Escribe tu nombre aquí" type="text"
-                        name="usuario">
-                    <input class="form-control col-sm-12 col-md-5" placeholder="Escribe tu número de contacto aquí" type="email"
-                        name="contacto">
-                    <textarea class="form-control col-md-12" placeholder="Escribe tu pedido aquí" 
-                        name="pedido"></textarea>
-                    <input href="" class="col-md-2" type="submit" value="Enviar Mensaje">
-                </div>
-            </form>
-        </section>
     <br>
     <br>
-    
 
-    <section class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-        <div class="container1">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div class="somos">
-                    <h1>Enviamos a todo Chile<span class="text-warning"> </span></h1>
-                    <p class="lead my-4">
-                        <b> Misqui Miel</b>
-                        <br> Quiere estar cerca de tu hogar, brindando productos de calidad.
-                        <br>
-                        <b>Conoce las regiones donde realizamos envíos.</b> 
-                    </p>
-                    <button>
-                        <a href="envios.html" class="boton">
-                            <span class="span">Envíos</span>
-                        </a>
-                    </button>
+                    <!--=============== TEXTO INICIAL ===============-->
+                    <div class="misqui text-md-center">
+                        <div>
+                            <h1>MISQUI MIEL</h1>
+                            <h5>100% NATURAL Y ORGÁNICA</h5>
+                        </div>
+                    </div>
+        <br><br>
+
+<br>
+<br>
+<ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+    </li>
+</ul><br>
+<div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+</div>
+<div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+    Producto removido!
+</div>
+
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        1
+    </div>
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel"
+        aria-labelledby="pills-profile-tab">
+        <h2 class="h4 m-4 text-primary">Productos</h2>
+
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Miel Floral</h5>
+                    <img src="./img/IMG_1061.JPG" class="card-img-top" alt="Miel Floral">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Miel Floral 1 KG.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 5.500</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
                 </div>
-                <img class="img-fluid w-50 d-none d-sm-block" src="./img/Sin-título-1.jpg" alt="responsive-image" />
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Miel de Hulmo</h5>
+                    <img src="./img/IMG_1062.JPG" class="card-img-top" alt="Miel de Hulmo">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Miel de Hulmo 1 KG.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$6.500</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Miel de Eucaliptu</h5>
+                    <img src="./img/IMG_1065.JPG" class="card-img-top" alt="Miel de Eucaliptu">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Miel de Eucaliptu 1 KG.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 7.000</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">tomate cherry</h5>
+                    <img src="./img/tomate cherry.jpg" card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Some quick example text to build on the
+                            card
+                            title and make up the bulk of the card's content.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 12</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">naranja</h5>
+                    <img src="./img/naranja.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Some quick example text to build on the
+                            card
+                            title and make up the bulk of the card's content.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 6</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">maracuya</h5>
+                    <img src="./img/maracuya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Some quick example text to build on the
+                            card
+                            title and make up the bulk of the card's content.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 13</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">freutilla</h5>
+                    <img src="./img/frutilla.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Some quick example text to build on the
+                            card
+                            title and make up the bulk of the card's content.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 24</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">arandano</h5>
+                    <img src="./img/arandano.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Some quick example text to build on the
+                            card
+                            title and make up the bulk of the card's content.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 14</span></h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary button">Añadir a Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        <br>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr class="text-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Productos</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+
+
+
+            </tbody>
+        </table>
+        <br><br>
+        <div class="row mx-4">
+            <div class="col">
+                <h3 class="itemCartTotal text-white ">Total: 0</h3>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <button class="btn btn-success">COMPRAR</button>
             </div>
         </div>
-    </section>
+
+    </div>
+</div>
+
+    
 
     <!--===============  FOOTER ===============-->
+    
     <footer class="p-5 text-white text-center position-relative foot2">
                 <div>
                     <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -99,9 +248,7 @@
                         <br>
                         <b>2018</b> 
                     </p>
-                    <button class="boton">
                     <a href="./nosotros.html"> Sobre nosotros</a>
-                </button>
                 </div>
     </footer>
 
@@ -119,7 +266,7 @@
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="./js.js"></script>
+    <script src="./ventas.js"></script>
 </body>
 
 </html>
