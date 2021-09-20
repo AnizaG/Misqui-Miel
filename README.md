@@ -1,2 +1,2 @@
 # Misqui-Miel
-Proyecto personal
+ Proyecto de Miel

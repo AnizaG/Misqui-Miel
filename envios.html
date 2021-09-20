@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misqui Miel</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+    <!-- Bootstrap CSS / Personal / Fonts-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!--============= NAV ==============-->
+    <header class=" Header">
+        <div class="bg-dark bd-dark1 " id="menSoc">
+            <div class="container">
+                <nav class="navbar bg-transparent navbar-dark navbar-expand-lg">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menuprincial"
+                        aria-controls="menuPrincipal" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="naveg collapse navbar-collapse " id="Menuprincial">
+
+                        <div class="naveg  navbar-nav w-100 justify-content-center">
+                            <a href="./index.html"> INICIO</a>
+                            <a href="./nosotros.html"> NOSOTROS</a>
+                            <a href="./pedidos.html">PEDIDOS</a>
+                            <a href="#" onclick="generarNuevoColor()">Nuevo color</a>
+                            <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <!--=============== TEXTO INICIAL ===============-->
+    <div class="misqui text-md-center">
+        <div>
+            <h1>MISQUI MIEL</h1>
+            <h5>100% NATURAL Y ORGÁNICA</h5>
+        </div>
+    </div>
+    <br><br>
+
+    <!--============== GALERIA =============== -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/1.jpeg" class="d-block w-100" alt="">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/4.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/5.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/6.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/8.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/9.webp" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <br>
+
+    <h3 class="text-center catalogo1">Variedad de Miel</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4" style="background-color:#aaa">
+                <img src="./img/IMG_1017.JPG" alt="">
+                <h1>Columna 1</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-xl-4" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-xl-4" style="background-color:#ccc">
+                <h1>Columna 3</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-4" style="background-color:#aaa">
+                <h1>Columna 1</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-lg-4" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-lg-4" style="background-color:#ccc">
+                <h1>Columna 3</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4" style="background-color:#aaa">
+                <h1>Columna 1</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-md-4" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-md-4" style="background-color:#ccc">
+                <h1>Columna 3</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4" style="background-color:#aaa">
+                <h1>Columna 1</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-sm-4" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-sm-4" style="background-color:#ccc">
+                <h1>Columna 3</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-4" style="background-color:#aaa">
+                <h1>Columna 1</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-4" style="background-color:#bbb">
+                <h1>Columna 2</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+            <div class="col-4" style="background-color:#ccc">
+                <h1>Columna 3</h1>
+                <p>Esto es una prueba de bootstrap.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--============== DATA TABLE =============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <h1 class="text-center">Envíos a Regiones en Chile</h1>
+    <br>
+    <h3 class="text-center">Retiros en Starken</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>REGIONES</th>
+                            <th>SUCURSAL</th>
+                            <th>COSTO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arica, Parinacota y Tarapacá</td>
+                            <td>Avda. Brasil Nº 121</td>
+                            <td>$5.000</td>
+                        </tr>
+                        <tr>
+                            <td>Antofagasta</td>
+                            <td>Latorre 2751</td>
+                            <td>$4.500</td>
+                        </tr>
+                        <tr>
+                            <td>Atacama y Coquimbo</td>
+                            <td>Licancabur 154, San Pedro de Atacama, Antofagasta</td>
+                            <td>$4.500</td>
+                        </tr>
+                        <tr>
+                            <td>Valparaíso</td>
+                            <td>Avda. Brasil 1538 Local 1</td>
+                            <td>$3.500</td>
+                        </tr>
+                        <tr>
+                            <td>Metropolitana</td>
+                            <td>Terminal Alameda local 011, nivel -1, Estación Central</td>
+                            <td>$4.000</td>
+                        </tr>
+                        <tr>
+                            <td>O'Higgins</td>
+                            <td>Avda. Ambrosio oHiggins # 1326, local 5</td>
+                            <td>$4.500</td>
+                        </tr>
+                        <tr>
+                            <td>Maule</td>
+                            <td>Rúa Ainara, 914, 3º F</td>
+                            <td>$4.000</td>
+                        </tr>
+                        <tr>
+                            <td>Ñuble, Biobío y La Araucanía</td>
+                            <td>Ñuble 467</td>
+                            <td>$4.500</td>
+                        </tr>
+                        <tr>
+                            <td>La Araucanía</td>
+                            <td>Avenida Medrano, 05, 20º F</td>
+                            <td>$5.000</td>
+                        </tr>
+                        <tr>
+                            <td>Los Ríos y Los Lagos</td>
+                            <td> Arturo Prat 8, San José de Mariquina, Mariquina, Los Ríos</td>
+                            <td>$4.000</td>
+                        </tr>
+                        <tr>
+                            <td>Los Lagos</td>
+                            <td>Travessera Elena, 4, 7º F</td>
+                            <td>$4.500</td>
+                        </tr>
+                        <tr>
+                            <td>Magallanes</td>
+                            <td>Rojas Magallanes 3638,local01</td>
+                            <td>$6.000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>REGIONES</th>
+                            <th>SUCURSAL</th>
+                            <th>COSTO</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                <button>
+                    <a href="pedidos.html" class="boton">
+                        <span class="span">Pedidos</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--=================== FOOTER ================-->
+    <svg class="svg-hero" viewbox="0 0 1440 320">
+        <path fill="#e8e4e1" fill-opacity="1"
+            d="M0,288L120,288C240,288,480,288,720,245.3C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+
+    <footer class="p-5  text-white text-center position-relative foot1">
+        <div class="foot1">
+            <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+            <p class="lead"> <b>Misqui Miel</b>
+                <br>
+                100% Natural - Miel Orgánica
+                <br>
+                <b>2018</b>
+            </p>
+        </div>
+    </footer>
+
+
+    <!--=============== LIBRERIAS ===============-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+    <script src="./js.js"></script>
+</body>
+
+</html>

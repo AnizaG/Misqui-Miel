@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misqui Miel</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=MuseoModerno:wght@200&family=Rajdhani:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <!--=============== MENÚ DE NAVEGACIÓN ===============-->
+    <header class="Header">
+        <div class="bg-dark bd-dark1 " id="menSoc">
+            <div class="container">
+                <nav class="navbar bg-transparent navbar-dark navbar-expand-lg">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menuprincial"
+                        aria-controls="menuPrincipal" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="naveg collapse navbar-collapse " id="Menuprincial">
+
+                        <div class="naveg  navbar-nav w-100 justify-content-center">
+                            <a href="./index.html">INICIO</a>
+                            <a href="./nosotros.html">NOSOTROS</a>
+                            <a href="./envios.html">ENVÍOS</a>
+                            <a href="#" onclick="generarNuevoColor()">Nuevo color</a>
+                            <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>    
+    </header>
+<br>
+<br>
+
+
+        <!--=============== FORMULARIO ===============-->
+        <section class="Contacto container">
+            <h1 class="text-center">HAZ TU PEDIDO</h1>
+            <br>
+            <form class="fromCont" action="" id="formulario">
+                <div class="row d-flex justify-content-between">
+                    <input class="form-control col-sm-12 col-md-6" placeholder="Escribe tu nombre aquí" type="text"
+                        name="usuario">
+                    <input class="form-control col-sm-12 col-md-5" placeholder="Escribe tu número de contacto aquí" type="email"
+                        name="contacto">
+                    <textarea class="form-control col-md-12" placeholder="Escribe tu pedido aquí" 
+                        name="pedido"></textarea>
+                    <input href="" class="col-md-2" type="submit" value="Enviar Mensaje">
+                </div>
+            </form>
+        </section>
+    <br>
+    <br>
+    
+
+    <section class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container1">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="somos">
+                    <h1>Enviamos a todo Chile<span class="text-warning"> </span></h1>
+                    <p class="lead my-4">
+                        <b> Misqui Miel</b>
+                        <br> Quiere estar cerca de tu hogar, brindando productos de calidad.
+                        <br>
+                        <b>Conoce las regiones donde realizamos envíos.</b> 
+                    </p>
+                    <button>
+                        <a href="envios.html" class="boton">
+                            <span class="span">Envíos</span>
+                        </a>
+                    </button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="./img/Sin-título-1.jpg" alt="responsive-image" />
+            </div>
+        </div>
+    </section>
+
+    <!--===============  FOOTER ===============-->
+    <footer class="p-5 text-white text-center position-relative foot2">
+                <div>
+                    <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <p class="lead"> <b>Misqui Miel</b>
+                        <br>
+                        100% Natural - Miel Orgánica
+                        <br>
+                        <b>2018</b> 
+                    </p>
+                    <button class="boton">
+                    <a href="./nosotros.html"> Sobre nosotros</a>
+                </button>
+                </div>
+    </footer>
+
+
+        <!--===============  LIBRERIAS ===============-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="./js.js"></script>
+</body>
+
+</html>

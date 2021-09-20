@@ -1,0 +1,168 @@
+/* ================= BODY===================== */
+body{
+    background-color: #ffb600;
+    position: relative;
+}
+
+/* ================= HEADER NAV===================== */
+Header {
+    width: 100%;
+    height: 7vh;
+    background-color: #ffb600;
+}
+
+.bg-dark {
+    background-color: #393e46 !important;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+}
+
+.bg-dark1 {
+    background-color: #393e46 !important;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 2px solid #080808;
+}
+
+@media (min-width: 768px) {
+    .bg-dark {
+    background-color: transparent !important;
+    }
+    }
+
+    /* ================= NAV ================== */
+.naveg a {
+    color: #fff !important;
+    font-family: "Montserrat";
+    font-size: 23px;
+    padding: 4px 15px;
+    text-align: center;
+}
+
+.naveg a:hover {
+    background: linear-gradient(160deg, #ffb600 0%, #000000 100%);
+    border-radius: 5%;
+}
+
+@media (max-width: 500px) {
+    .Text-hero h3,
+    h5 {
+    font-size: 47px;
+    }
+}
+
+/* ================= FOOTER =================== */
+footer {
+    background-color: snow;
+    min-height: 100px;
+}
+
+.foot {
+    color: #0a0a0a;
+    text-align: center;
+}
+.foot1{
+    background-color: #ebe7e1;
+    color: black;
+}
+
+.foot2{
+    background-color: #ffb600;
+    text-align: center;
+}
+
+
+/* ============= NOSOTROS ================ */
+.vision{
+    color: black;
+
+}
+
+.valores{
+    color: black;
+}
+
+.somos{
+    color: black;
+}
+
+.carousel-inner {
+    max-height: 30rem !important;
+}
+
+.conoce h2 {
+    font-family: cursive;
+}
+
+.misqui2{
+    background-color: #ffb600;
+    margin: center;
+    width: 100%;
+    height: 500px;
+}
+
+.cuida{
+    background-color: #ffb600;
+}
+
+.nosotros2{
+    color: black;
+}
+
+.container1{
+    background-color: #ffb600;
+    width: 100%;
+}
+
+.lead{
+    color: black;
+}
+
+/* ============= INDEX ================ */
+.cuidados{
+    background-color: #ffb600;
+    color: black;
+}
+
+
+/* =============== MAP =================== */
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+
+/* ============= BOTÓN CONTÁCTANOS ============= */
+.boton{
+    color: #ffffff;
+    background-color: black;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+border-style: none;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton1 {
+    background-color: rgb(8, 8, 8); 
+    color: white; 
+    border: 2px solid #050505;
+}
+
+.boton1:hover {
+    background-color: #020202;
+    color: white;
+}
+
+.catalogo1{
+    width: 10px;
+    height: 10px;
+}
