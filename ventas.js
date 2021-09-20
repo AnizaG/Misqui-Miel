@@ -1,4 +1,3 @@
-
 /* VENTAS*/
 
 const Clickbutton = document.querySelectorAll('.button')
